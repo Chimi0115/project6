@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>project</title>
+    </head>
+    <body>
+        <form>
+            <h2>Personal Details</h2>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label>Name:</label>
+                <input type="text" placeholder="Name"><br><br>
+                <label>Password</label>
+                <input type="text" placeholder="Password"><br>
+                <br>
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="Gender" value="Male">Male <br>
+                <input type="radio" name="Female" value="Female">Female <br>
+                <br>
+                <label>City</label>
+                <br>
+                <input type="checkbox" value="blr">Thimphu <br>
+                <input type="checkbox" value="blr">Gelephu <br>
+                <br>
+                <input type="button" value="Submit form">
+            </fieldset>
+        </form>
+        <h2>calculate your marks</h2>
+        <form action="/action_page.php" oninput="x.value=(parseInt(a.value)+parseInt(b.value)+parseInt(c.value))/3"></form>
+            <select>
+                <option value="Maths">Maths</option>
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+            </select>
+            <input type="number" id="a"><br>
+            <select>
+                <option value="Maths">Maths</option>
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+            </select>
+            <input type="number" id="b"><br>
+            <select>
+                <option value="Maths">Maths</option>
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+            </select>
+            <input type="number" id="c"><br>
+            <label for="Average:"></label>
+            <output name="x" for="a b c"></output>
+        </form>
+    </body>
+</html>
